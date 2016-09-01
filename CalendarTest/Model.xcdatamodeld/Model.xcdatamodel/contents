@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Xcode 7.0">
+    <entity name="Entity" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EntityTask" syncable="YES">
+        <attribute name="array" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="chetverg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateStart" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dayStart" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isClicked" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="monthStart" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ponedelnik" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pyatnica" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sreda" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stringOfSelectedDays" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subbota" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeStart" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="voskresenie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vtornik" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yearStart" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Entity" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="EntityTask" positionX="-63" positionY="0" width="128" height="285"/>
+    </elements>
+</model>
